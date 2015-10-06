@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201506031155" modelVersion="1.0" ?>
+<variables>
+   <variable name="store"/>
+   <variable name="image_source"/>
+</variables>

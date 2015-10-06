@@ -1,0 +1,505 @@
+/* This is an invisible group containing all controls */
+.group {
+	padding: 10px 10px 10px 10px;
+}
+
+/* This is the bar at the top of the page */
+.navigationbar {
+	background-color: #003299;
+    background-position: center;
+	color: #ffffff;
+    height: 3.1875rem;
+}
+
+.runtime-ios .navigationbar {
+    height: 4.2rem;
+}
+
+.navigationbar>.label {
+	height: 1.5rem;
+	line-height: 1.5rem
+}
+
+.navigationbar-button, .navigationbar-backbutton {
+	background-color: #003299;
+    background-position: center;
+	color: #ffffff;
+	height: 3.0rem;
+}
+
+.navigationbar-button {
+	padding-top: 4px;
+}
+
+.navigationbar-backbutton {
+	padding-top: 6px;
+}
+
+/* No blue background when selecting */
+.navigationbar-button:active, .navigationbar-backbutton:active {
+	background-color: #003299;
+	/* 0px does show */
+	border-width: 0px 0px 0px 0px;
+	border-color: #003299;
+}
+
+.navigationbar-button, .navigationbar-backbutton {
+	padding-bottom: 11px;
+}
+
+/* Shared options for all buttons */
+.rmc-button, .rmc-button-solid, .rmc-button-white, .rmc-picker-buttons > .button {
+	background-color: #003299;
+	color: #ffffff;
+	text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
+	/* rounded borders */
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	/* 0px does show */
+	border-width: 0px 0px 0px 0px;
+	border-color: #003299;
+	-webkit-box-sizing: border-box;
+	line-height: auto;
+	/* display: inline-block; */
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 0.8rem;
+	font-weight: bold;
+	padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+	height: auto;
+
+	/*  overflow: hidden; */
+}
+
+/* Reverse the colors when selecting */
+.rmc-button:not(.active), .rmc-picker-buttons > .button:not(.active) {
+	border-width: 1px 1px 1px 1px;
+	border-color: #ffffff;
+	}
+
+.button.active, .rmc-button:active, .rmc-picker-buttons > .button.active {
+	background-color: #ffffff;
+	color: #003299;
+	
+	border-width: 1px 1px 1px 1px;
+	border-color: #003299;
+
+	text-shadow: none;
+}
+
+.rmc-button-solid {
+}
+
+/* No blue background when selecting */
+.rmc-button-solid:active {
+	background-color: #ffffff;
+	color: #003299;
+	
+	border-width: 1px 1px 1px 1px;
+	border-color: #003299;
+	
+	text-shadow: none;
+}
+
+.rmc-button-solid:not(.active) {
+	border-width: 1px 1px 1px 1px;
+	border-color: #ffffff;
+	}
+
+.rmc-button-white, .form-field-button > .rmc-button {
+	background-color: #FFFFFF;
+	color: #003299;
+	
+	border-width: 1px 1px 1px 1px;
+	border-color: #003299;
+
+	text-shadow: none;
+}
+
+
+/* No blue background when selecting */
+.rmc-button-white:active {
+	background-color: #003299;
+	color: #FFFFFF;
+
+	border-width: 1px 1px 1px 1px;
+	border-color: #003299;
+}
+
+/* Titles and headings */
+.rmc-label, .rmc-title {
+	background-color: #ffffff;
+	color: rgb(87, 107, 149); */
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.rmc-title {
+	font-size: 18px;
+	font-style: bold;
+	line-height: 22px;
+}
+
+/*** input ***/
+.mobile input:focus {
+	-webkit-box-shadow: 0 0 0.125rem 0.0625rem #003299;
+	-moz-box-shadow: 0 0 0.125rem 0.0625rem #003299;
+	box-shadow: 0 0 0.125rem 0.0625rem #003299;
+}
+
+/* Base definition for a text field  */
+.rmc-textfield, .rmc-textarea, .rmc-passwordfield {
+	background-color: #ffffff;
+	border: 0.0625rem solid #d5d5d5;
+	color: #000000;
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+/* Base definition for a text area  */
+.rmc-textarea {
+  margin-bottom: 5px;
+  }
+
+/* When a text field is active  */
+.rmc-textfield:active, .rmc-textarea:active {
+	
+}
+
+/* When a text field or text area is hovered over  */
+.rmc-textfield:hover, .rmc-textarea:hover {
+	
+}
+
+/*** images ***/
+.rmc-image {
+	
+}
+
+.rmc-barchart {
+	
+}
+
+.rmc-checkbox, .checkbox {
+	height: 26px;
+	width: 26px;
+}
+
+.form .form-row .checkbox {
+	border: 0.0625rem solid #d5d5d5;
+}
+
+.rmc-checkbox:after, .checkbox:after {
+	border-color: #003299;
+}
+
+.rmc-datepicker {
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.rmc-doughnutchart {
+}
+
+/* Grid */
+.rmc-grid {
+	
+}
+
+.rmc-grid table tr.active td {
+  background-color: #003299;
+}
+
+/* Line Chart */
+.rmc-linechart {
+	
+}
+
+/* list */
+.rmc-list {
+}
+
+.list-item-title {
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+}
+
+.list-item-subtitle {
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 12px;
+	color:  #008000
+}
+
+/* Background when selecting an item */
+.list-item-subtitle.active {
+	color: white;
+	}
+
+.list-item.active {
+	background-color: #008000;
+}	
+	
+.list-item.active * {
+	color: white;
+}
+
+/* map */
+.rmc-map {
+	
+}
+
+.rmc-passwordfield {
+	
+}
+
+/* Picker */
+.rmc-picker, .rmc-datepicker {
+    border: 0.0625rem solid #999999;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+    background-color: #ffffff;
+    background-image: none;
+    font-family: 'RocketFont', Arial;
+    padding-left: 0.885rem;;
+}
+
+.rmc-picker .title {
+	line-height: 20px;
+	font-size: 0.9375rem;
+}
+
+.rmc-picker-popup {
+  border-color: #003299;
+  }
+
+.picker .placeholder-item {
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.picker:before {
+  border-top: 0.125rem solid rgba(122,178,50,0.5);
+  border-bottom: 0.125rem solid rgba(122,178,50,0.5);	
+}
+
+	
+/* Pie */
+.rmc-piechart {
+	
+}
+
+.rmc-polarchart {
+	
+}
+
+.rmc-radarchart {
+	
+}
+
+/* radiobutton */
+.radio {
+	height: 26px;
+	width: 26px;
+}
+
+.rmc-radiobutton {
+	
+}
+
+.rmc-radiobutton:after, .radio:after {
+	background-color: #003299;
+	height: 12px;
+	width: 12px;
+	margin-top: -6px;
+	margin-left: -6px;
+}
+
+/* select box */
+.rmc-selectbox {
+	color: #000000;
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.selectbox.active {
+	background-color: #003299;
+}
+
+.selectbox-selected:hover {
+	background-color: #003299;
+}
+
+.selectbox-selected:active {
+	background-color: #003299;
+}
+
+.selectbox-selected {
+	background-color: #003299;
+}
+
+.selectbox-unselected:hover {
+	background-color: #003299;
+}
+
+.selectbox-unselected:active {
+	background-color: white;
+}
+
+.selectbox-unselected {
+	background-color: white;
+}
+
+.menu {
+	border-color: #d5d5d5;
+	font-family: helvetica, arial, 'lucida grande', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0 0 0 0;
+}
+
+/* slider */
+.rmc-slider {
+}
+
+.slider>div {
+	background-color: #003299;
+}
+
+.slider>div:after {
+	height: 26px;
+	top: -11px;
+	width: 26px;
+}
+
+/* Toggle button */
+.rmc-toggle {
+}
+
+.togglebutton {
+	height: 26px;
+	line-height: 26px;
+	width: 75px;
+	/* change the background color of the switch */
+	background-color: white;
+}
+
+.togglebutton-switch {
+	height: 26px;
+	width: 26px;
+	/* change the color of the 'ball' */
+	background-color: white;
+}
+
+.togglebutton.checked {
+	background-color: #008000;
+}
+
+/* change the color of the switches */
+.togglebutton.gap:before {
+	color: #003299;
+}
+
+/* change the color of only the ON switch */
+.togglebutton.gap.checked:before {
+	color: white;
+}
+
+.togglebutton:not (.checked ):before {
+	display: block;
+	content: " " attr(data-label-unchecked);
+	color: rgb(87, 107, 149);
+	margin-left: 1.8rem;
+	margin-right: 0.1875rem;
+	width: togglebutton-width;
+}
+
+/* C O N T A I N E R S */
+
+.rmc-carousel {
+}
+
+.carousel-pagination-label {
+	background-color: black; 	
+}
+
+.carousel-pagination-label.active {
+	background-color: #003299; 	
+}
+
+.rmc-vertical {
+}
+
+.rmc-horizontal {
+}
+
+/* Collapsible pane */
+.rmc-pane {
+}
+
+.collapsible-header.active {
+  background-color: #003299;
+}
+
+.collapsible-header:not(.active) {
+  color: #000000;
+}
+
+.rmc-form {
+    border: none;
+    line-height: 1.5rem;
+	}
+
+.form {
+    border: none;
+    line-height: 1.5rem;
+}
+
+.form .form-row {
+	padding: 1px;
+}
+
+.form .mobileclient-form-row-content {
+    border: none;
+}
+
+.rmc-drawer {
+	}
+
+/* Toolbar */
+.rmc-tabbar {
+	background-color: #008000;
+	border-color: #008000;
+	height: 30px;
+}
+
+.tabButton.active, .tabButton.selected {
+	background-color: #003299;
+	background-image: none;
+	border-color: #003299;
+}
+
+/* Toolbar */
+.rmc-toolbar {
+	background-color: #003299;
+	height: 30px;
+}
+
+/* ???? */
+.left-container {
+    height: 4.1875rem;
+    vertical-align: middle;
+}
+
+.right-container {
+    height: 4.1875rem;
+    vertical-align: middle;
+}
+
+

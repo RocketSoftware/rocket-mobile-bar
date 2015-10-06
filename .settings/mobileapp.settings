@@ -1,0 +1,27 @@
+#Tue Jan 27 10:05:31 CET 2015
+CameraPermission = true
+ApplicationAuthor = 
+EventLoggerMaxPeriod = 600000
+ApplicationIdentity = 9056df5e-b8a9-4ae3-89cd-8320640401d2
+ApplicationTitle = RM Bar
+ApplicationDescription = Powered by Rocket Mobile Application Builder
+ApplicationBundle = com.rs.demo.rocketmobilebar
+EventLoggerMaxNumber = 50
+LicenseManagers = {"activeLicenseManager":"Production","licenseManagers":{"Production":"https://rsmob.rocketsoftware.com/internal","Development":"http://dor-vm-0091:8080/centipede_latest"}}
+RMABVersion = 2.2.0.v20151006-35
+ApplicationAuthorEmail = 
+ApplicationVendor = com.rs.demo
+GeolocationWatchPosition = true
+ApplicationVersion = 1.0.25
+RequireUserCredentials = false
+GeolocationPermission = false
+ApplicationAuthorWeb = 
+GenerateApplicationBundle = false
+PhonegapConfigExText = <gap:plugin name="com.phonegap.plugins.barcodescanner" />
+AutoIncrementVersion = true
+ApplicationIconDefault = Resources/appicons/rocket.png
+ApplicationIcon60 = Resources/appicons/rocket-60x60.png
+ApplicationIcon76 = Resources/appicons/rocket-76x76.png
+ApplicationIcon120 = Resources/appicons/rocket-120x120.png
+ApplicationIcon152 = Resources/appicons/rocket-152x152.png
+MaxGraceCount = 0

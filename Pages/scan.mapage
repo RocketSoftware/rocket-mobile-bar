@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201506050933" modelVersion="1.0" ?>
+<page>
+   <id>scan</id>
+   <title>Scan</title>
+   <backgroundColor>18</backgroundColor>
+   <controls>
+      <VerticalComposite>
+         <id>VerticalComposite1</id>
+         <customCssClass>rmc-vertical</customCssClass>
+         <controls>
+            <Image>
+               <id>Image1</id>
+               <customCssClass>rmc-image</customCssClass>
+               <marginCustom value="true">
+                  <marginTop>4</marginTop>
+               </marginCustom>
+               <source>Resources/qr-scanner.png</source>
+               <scale value="true">
+                  <width>100</width>
+               </scale>
+               <handlers>
+                  <event
+                        desc="Button1_OnTap"
+                        name="tap">
+                     <handler>
+                        <action
+                              target="Scripts/scan.js"
+                              type="CUSTOM_SCRIPT"/>
+                     </handler>
+                  </event>
+               </handlers>
+            </Image>
+         </controls>
+         <flex>1</flex>
+      </VerticalComposite>
+      <TextArea>
+         <id>TextArea1</id>
+         <customCssClass>rmc-textarea</customCssClass>
+         <value>${store}</value>
+      </TextArea>
+   </controls>
+   <handlers>
+      <event
+            desc="scan_OnLoad"
+            name="load">
+         <handler>
+            <action
+                  target="Scripts/scan.js"
+                  type="CUSTOM_SCRIPT"/>
+         </handler>
+      </event>
+   </handlers>
+</page>

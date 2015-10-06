@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" exeVersion="1.0.0.201505110838" modelVersion="1.0" ?>
+<page>
+   <id>page</id>
+   <title>${App.ApplicationTitle}</title>
+   <backbutton value="true">
+      <id>backbutton1</id>
+      <icon>Resources/backarrow-32x32.png</icon>
+      <handlers>
+         <event
+               desc="backbutton1_OnBack"
+               name="back">
+            <handler>
+               <action type="BACK"/>
+            </handler>
+         </event>
+      </handlers>
+   </backbutton>
+   <controls/>
+   <handlers/>
+</page>

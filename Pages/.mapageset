@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.201506050933" modelVersion="1.0" ?>
+<page_set>
+   <DeviceType>6</DeviceType>
+   <DefaultPage>scan</DefaultPage>
+   <DefaultPageTemplate/>
+   <Theme>android(Themes/bar.css)</Theme>
+</page_set>

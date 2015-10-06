@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" exeVersion="1.0.0.201505270718" modelVersion="1.0" ?>
+<page>
+   <id>page</id>
+   <title>${App.ApplicationTitle}</title>
+   <backbutton value="true">
+      <id>backbutton1</id>
+      <icon>Resources/backarrow-32x32.png</icon>
+      <handlers>
+         <event
+               desc="backbutton1_OnBack"
+               name="back">
+            <handler>
+               <action type="BACK"/>
+            </handler>
+         </event>
+      </handlers>
+   </backbutton>
+   <controls>
+      <VerticalComposite>
+         <id>VerticalComposite1</id>
+         <customCssClass>rmc-vertical</customCssClass>
+         <controls>
+            <Label>
+               <id>Label1</id>
+               <value>Form Title</value>
+               <customCssClass>rmc-title</customCssClass>
+               <marginCustom value="true">
+                  <marginTop>4</marginTop>
+               </marginCustom>
+            </Label>
+            <FormComposite>
+               <id>FormComposite1</id>
+               <customCssClass>rmc-form</customCssClass>
+               <controls>
+                  <TextField>
+                     <id>FormField1</id>
+                     <customCssClass>rmc-textfield</customCssClass>
+                     <marginCustom value="true">
+                        <marginTop>4</marginTop>
+                     </marginCustom>
+                     <formLabel>Caption</formLabel>
+                  </TextField>
+               </controls>
+            </FormComposite>
+         </controls>
+      </VerticalComposite>
+   </controls>
+   <handlers/>
+</page>

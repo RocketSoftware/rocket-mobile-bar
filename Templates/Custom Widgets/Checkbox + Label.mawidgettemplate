@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" exeVersion="1.0.0.201504011315" modelVersion="1.0" ?>
+<page>
+   <id/>
+   <title>${App.ApplicationTitle}</title>
+   <controls>
+      <HorizontalComposite>
+         <id>HorizontalComposite1</id>
+         <controls>
+            <CheckBox>
+               <id>CheckBox1</id>
+               <customCssClass>rmc-checkbox</customCssClass>
+               <flex>0</flex>
+            </CheckBox>
+            <Label>
+               <id>Label1</id>
+               <value>Label</value>
+               <customCssClass>rmc-label</customCssClass>
+               <marginCustom value="true">
+                  <marginTop>4</marginTop>
+                  <marginLeft>4</marginLeft>
+               </marginCustom>
+               <flex>0</flex>
+            </Label>
+         </controls>
+         <alignY>Middle</alignY>
+         <marginCustom value="true">
+            <marginTop>4</marginTop>
+         </marginCustom>
+      </HorizontalComposite>
+   </controls>
+</page>

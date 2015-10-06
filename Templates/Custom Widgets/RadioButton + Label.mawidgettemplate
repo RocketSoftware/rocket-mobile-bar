@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" exeVersion="1.0.0.201504101304" modelVersion="1.0" ?>
+<page>
+   <id/>
+   <title>${App.ApplicationTitle}</title>
+   <controls>
+      <HorizontalComposite>
+         <id>HorizontalComposite2</id>
+         <controls>
+            <RadioButton>
+               <id>RadioButton2</id>
+               <customCssClass>rmc-radiobutton</customCssClass>
+               <groupId>1</groupId>
+            </RadioButton>
+            <Label>
+               <id>Label2</id>
+               <value>Label</value>
+               <customCssClass>rmc-label</customCssClass>
+               <marginCustom value="true">
+                  <marginTop>4</marginTop>
+                  <marginLeft>4</marginLeft>
+               </marginCustom>
+               <flex>0</flex>
+            </Label>
+         </controls>
+         <alignY>Middle</alignY>
+         <marginCustom value="true">
+            <marginTop>4</marginTop>
+         </marginCustom>
+      </HorizontalComposite>
+   </controls>
+</page>
