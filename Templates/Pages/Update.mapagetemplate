@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?VersionInfo exeName="LegaSuite.exe" productName="lswb" exeVersion="1.0.0.qualifier" modelVersion="1.0" ?>
+<page>
+   <id>Update</id>
+   <title>Update available</title>
+   <controls>
+      <VerticalComposite>
+         <id>Container1</id>
+         <marginCustom>
+            <marginTop>50</marginTop>
+         </marginCustom>
+         <alignX>Center</alignX>
+         <controls>
+            <Label>
+               <id>UpdateRequiredLabel</id>
+               <value>&lt;h2 style=\'text-align: center;'&gt;New version is available and update is required&lt;/h2&gt;</value>
+               <visible>${App.UpdateInfo.required}</visible>
+            </Label>
+            <Label>
+               <id>UpdateAvailableLabel</id>
+               <value>&lt;h2 style=\'text-align: center;'&gt;New version is available&lt;/h2&gt;</value>
+               <visible>${!App.UpdateInfo.required}</visible>
+            </Label>
+            <Button>
+               <id>BtnDownload</id>
+               <label>Download update</label>
+               <marginCustom>
+                  <marginTop>10</marginTop>
+               </marginCustom>
+               <visible>${App.UpdateInfo.url}</visible>
+               <handlers>
+                  <event desc="BtnDownload_OnTap" name="tap">
+                     <handler>
+                        <action type="OPEN_URL">
+                           <url>${App.UpdateInfo.url}</url>
+                           <target>system</target>
+                        </action>
+                     </handler>
+                  </event>
+               </handlers>
+            </Button>
+            <Button>
+               <id>BtnProceed</id>
+               <label>I will update later, proceed to next page</label>
+               <marginCustom>
+                  <marginTop>10</marginTop>
+               </marginCustom>
+               <visible>${!App.UpdateInfo.required}</visible>
+            </Button>
+         </controls>
+      </VerticalComposite>
+   </controls>
+</page>
