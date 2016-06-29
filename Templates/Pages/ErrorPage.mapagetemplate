@@ -2,7 +2,7 @@
 <?VersionInfo exeName="LegaSuite.exe" exeVersion="1.0.0" modelVersion="1.0" ?>
 <page>
    <id>Error</id>
-   <title>Authentication Error</title>
+   <title>'${App.AuthError.title}'</title>
    <controls>
       <VerticalComposite>
          <id>VerticalComposite</id>
@@ -17,7 +17,7 @@
                   <marginBottom>20</marginBottom>
                   <marginTop>20</marginTop>
                </marginCustom>
-               <value>&lt;h4&gt;${ERROR_MESSAGE}&lt;/h4&gt;</value>
+               <value>&lt;h4 class=\'rmc-error\'&gt;${App.AuthError.message}&lt;/h4&gt;</value>
             </Label>
             <Button>
                <id>Retry</id>
@@ -25,13 +25,6 @@
                   <marginTop>10</marginTop>
                </marginCustom>
                <label>Retry</label>
-            </Button>
-            <Button>
-               <id>Skip</id>
-               <marginCustom value="true">
-                  <marginTop>10</marginTop>
-               </marginCustom>
-               <label>Skip to application (${RETRIES_NUMBER} retries left)</label>
             </Button>
          </controls>
       </VerticalComposite>
